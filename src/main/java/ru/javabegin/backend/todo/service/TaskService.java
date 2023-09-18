@@ -1,14 +1,11 @@
 package ru.javabegin.backend.todo.service;
 
-import javassist.NotFoundException;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import ru.javabegin.backend.todo.aop.exception.IncorrectDataException;
+import ru.javabegin.backend.todo.exception.IncorrectDataException;
 import ru.javabegin.backend.todo.entity.Task;
 import ru.javabegin.backend.todo.repo.TaskRepository;
 import ru.javabegin.backend.todo.search.TaskSearchValues;

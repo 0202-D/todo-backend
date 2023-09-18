@@ -1,4 +1,4 @@
-package ru.javabegin.backend.todo.aop.exception;
+package ru.javabegin.backend.todo.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

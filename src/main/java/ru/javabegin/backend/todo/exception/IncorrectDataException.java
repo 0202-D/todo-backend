@@ -1,4 +1,4 @@
-package ru.javabegin.backend.todo.aop.exception;
+package ru.javabegin.backend.todo.exception;
 
 public class IncorrectDataException extends RuntimeException{
     public IncorrectDataException(String message) {
